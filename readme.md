@@ -1,0 +1,1 @@
+This api its card count game , using this api for conent of  displaying Id, Name, Card Count by using Promise and Fetch.. and many caed images coming random . promise - fetch() method using this programming,readable stream so convert to JSON.

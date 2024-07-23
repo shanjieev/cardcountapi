@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=EB+Garamond:ital,wght@1,600&family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-image:url("POKEMON.jpg");
+  color: white;
+  background-size: cover;
+  font-family: "EB Garamond", serif;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+}
+.data-values {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 10px;
+  margin: 12px;
+  background-image: repeating-linear-gradient(
+      135deg,
+      hsla(210, 79%, 75%, 0.05) 0px,
+      hsla(210, 79%, 75%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(210, 79%, 75%, 0.05) 11px,
+      hsla(210, 79%, 75%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(210, 79%, 75%, 0.05) 0px,
+      hsla(210, 79%, 75%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(210, 79%, 75%, 0.05) 11px,
+      hsla(210, 79%, 75%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(210, 79%, 75%, 0.05) 0px,
+      hsla(210, 79%, 75%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(210, 79%, 75%, 0.05) 11px,
+      hsla(210, 79%, 75%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(210, 79%, 75%, 0.05) 0px,
+      hsla(210, 79%, 75%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(210, 79%, 75%, 0.05) 11px,
+      hsla(210, 79%, 75%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+   linear-gradient(white,yellow);
+   
+}
+.card-img-top {
+  width: 100px;
+  height: 150px;
+  border: 2px solid black;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: red;
+}
